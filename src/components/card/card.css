@@ -1,0 +1,45 @@
+.card_section {
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+
+.card_parent {
+    width: 100%;
+}
+
+.card_parent_ul {
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    gap: 1rem;
+}
+
+.ul_secound {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    padding-top: 2rem;
+    gap: 1rem;
+
+}
+
+.ul_secound .image_1 {
+    height: 200px;
+
+}
+
+.card_container_child p {
+    position: relative;
+    top: -37px;
+    background-color: aqua;
+    color: white;
+    width: 100px;
+    text-align: center;
+}
+
+.card_container_child h4 {
+    color: rgb(7, 7, 25);
+    letter-spacing: 0.5px;
+
+}
